@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $('.icon').click(function(){
+      $(this).toggleClass('icon-rotate')
+      $('#p-display').toggleClass('d-block')
+    })
+    $('.icon-1').click(function(){
+      $(this).toggleClass('icon-rotate')
+      $('#p-display-1').toggleClass('d-block')
+    })
+    $('.icon-2').click(function(){
+      $(this).toggleClass('icon-rotate')
+      $('#p-display-2').toggleClass('d-block')
+    })
+    $('.icon-3').click(function(){
+      $(this).toggleClass('icon-rotate')
+      $('#p-display-3').toggleClass('d-block')
+    })
+    $('.icon-4').click(function(){
+      $(this).toggleClass('icon-rotate')
+      $('#p-display-4').toggleClass('d-block')
+    })
+   })

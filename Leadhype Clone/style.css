@@ -1,0 +1,80 @@
+.nav-btn{
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+  }
+  .nav-btn-1{
+    color: blue;
+    border-color: blue;
+  }
+  .nav-btn-1:hover{
+    color: brown;
+    border-color: brown;
+  }
+  .nav-btn-2:hover{
+   background-color: brown;
+  }
+  #Logo{
+    width: 200px;
+    height: 50px;
+    object-fit: contain;
+  }
+  .bg-section{
+    background: url(./Media/background.jpg);
+  }
+  .section-height{
+    height: 400px;
+  }
+  .partners{
+    width: 100px;
+    object-fit: contain;
+  }
+  .icon-position{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+ .drop-box{
+  position: relative;
+  transition: all 2s ease;
+  height: auto;
+ }
+ .icon-rotate{
+  animation: rotate 0.5s ease;
+ }
+ @keyframes rotate {
+  100%{
+    transform: rotate(-360deg);
+  }
+ }
+ #p-display{
+  display: none;
+ }
+ #p-display-1{
+  display: none;
+ }
+ #p-display-2{
+  display: none;
+ }
+ #p-display-3{
+  display: none;
+ }
+ #p-display-4{
+  display: none;
+ }
+ .p-font{
+  font-size: 10px;
+ }
+ /* contact page nav css */
+ @media screen and (min-width:991px){
+  .nav-position{
+  position: relative;
+}
+.btn-cont{
+position: absolute;
+right: 10px;
+top: 0%;
+}     
+}
